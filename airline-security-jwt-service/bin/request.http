@@ -1,0 +1,33 @@
+GET http://localhost:8080/api/demo/greet 
+###
+GET http://localhost:8080/api/demo/greet/mike
+### next -> valid admin
+GET http://localhost:8080/api/demo/admin
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJtb3ZpZTIiOiJtb3N0ZXIgaHVudCIsInN1YiI6ImFkbWluIiwibW92aWUiOiJhbmRheiBhcG5hIGFwbmEiLCJwbGFjZSI6InN3aXR6ZXJsYW5kIiwiZXhwIjoxNjU3NzkxNzAxLCJpYXQiOjE2NTc3NzM3MDF9.e5bWBZ62CAEqaUd9pP6yzJzOt4XMhU_lgTTer1vPLjeWkgyu5q10nysFxjR9clAuc9-9cm6up7txoFqZYA2nZg
+### next -> valid user
+GET http://localhost:8080/api/demo/admin
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJtb3ZpZTIiOiJtb3N0ZXIgaHVudCIsInN1YiI6InVzZXIiLCJtb3ZpZSI6ImFuZGF6IGFwbmEgYXBuYSIsInBsYWNlIjoic3dpdHplcmxhbmQiLCJleHAiOjE2NTc3OTE2NTcsImlhdCI6MTY1Nzc3MzY1N30.qMyMJ0LItQ7bg2UfW6eT8Pgo_T1WaX7kRoB-hXzB25L_NqP3jZ3FWpWIG8-2ORbmS4g2E3_Hw-0KxdwYTPjMPQ
+### next -> valid user
+GET http://localhost:8080/api/demo/user
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJtb3ZpZTIiOiJtb3N0ZXIgaHVudCIsInN1YiI6InVzZXIiLCJtb3ZpZSI6ImFuZGF6IGFwbmEgYXBuYSIsInBsYWNlIjoic3dpdHplcmxhbmQiLCJleHAiOjE2NTc3OTE2NTcsImlhdCI6MTY1Nzc3MzY1N30.qMyMJ0LItQ7bg2UfW6eT8Pgo_T1WaX7kRoB-hXzB25L_NqP3jZ3FWpWIG8-2ORbmS4g2E3_Hw-0KxdwYTPjMPQ
+### next -> valid admin
+GET http://localhost:8080/api/demo/user
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJtb3ZpZTIiOiJtb3N0ZXIgaHVudCIsInN1YiI6ImFkbWluIiwibW92aWUiOiJhbmRheiBhcG5hIGFwbmEiLCJwbGFjZSI6InN3aXR6ZXJsYW5kIiwiZXhwIjoxNjU3NzkxNzAxLCJpYXQiOjE2NTc3NzM3MDF9.e5bWBZ62CAEqaUd9pP6yzJzOt4XMhU_lgTTer1vPLjeWkgyu5q10nysFxjR9clAuc9-9cm6up7txoFqZYA2nZg
+###
+POST http://localhost:8080/authenticate
+content-type: application/json
+
+{
+    "username": "user",
+    "password": "user@123"
+}
+###
+POST http://localhost:8080/authenticate
+content-type: application/json
+
+{
+    "username": "admin",
+    "password": "admin@123"
+}
+
+

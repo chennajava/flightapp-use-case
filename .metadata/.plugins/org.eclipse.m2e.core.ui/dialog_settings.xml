@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Hire &amp; Training\Workspace"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\use case git code\FlightBookingSystem-flight-service1"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\Flight-Management-System-master"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\ctsb26-master\ws\p11-springboot-security-jwt"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\ctsb26-master\ws\p10-springboot-security"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\ctsb26-master\ws\p09-springboot-h2-cache"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\ctsb26-master\ws\p08-springboot-custom-starter-consumer"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\ctsb26-master\ws\p07-springboot-custom-starter"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\ctsb26-master\ws\p06-springboot-error-pages"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\ctsb26-master\ws\p05-springboot-exception-handling"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\ctsb26-master\ws\p04-springboot-mysql-crud"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\ctsb26-master\ws\p03-springboot-h2-crud"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\ctsb26-master\ws\p02-springboot-h2-db"/>
+			<item value="C:\Users\cogjava1788\Downloads\Hire &amp; Training git code\ctsb26-master\ws\p01-springboot-basic"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
